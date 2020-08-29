@@ -4,4 +4,5 @@ itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
 Werkzeug==0.14.1
-Flask-WTF==0.14
+flask-wtf==0.14.2
+flask==0.12.2
