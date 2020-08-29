@@ -3,7 +3,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> A Simple Note Taking Web App </title>
+        <title> Special Notes - DXC </title>
         <link rel='stylesheet' href='{{ url_for("static", filename="css/bootstrap.min.css") }}'>
         <link rel='stylesheet' href='{{ url_for("static", filename="css/base.css") }}'>
     </head>
@@ -83,13 +83,6 @@
         <div class="add-margin-bottom"></div>
         <div class="container inline-p">
             <legend></legend>
-            <h4>
-                <p>&copy; 2017 Omkar Pathak<p>
-                <p class="pull-right">
-                    <a href="http://www.omkarpathak.in">About me</a>
-                    <a href="https://github.com/OmkarPathak/A-Simple-Note-Taking-Web-App">Contribute to this project</a>
-                </p>
-            </h4>
         </div>
     </body>
     <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
@@ -99,7 +92,7 @@
     {{ pagedown.include_pagedown() }}
     <script type="text/javascript">
         var typed3 = new Typed('.element', {
-           strings: ['A Simple Note Taking App', 'A Simple Web App', 'A Simple Note Taking  Web App'],
+           strings: ['Special Notes - DXC'],
            typeSpeed: 100,
            backSpeed: 100,
            smartBackspace: true, // this is a default
